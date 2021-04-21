@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/FinalTextView"
+        android:layout_width="303dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="513dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ScoreTextView"
+        android:layout_width="221dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="439dp"
+        android:text="@string/your_score"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FinalTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/NewQuizButton"
+        android:layout_width="266dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="73dp"
+        android:onClick="TakeQuiz"
+        android:text="@string/take_new_quiz"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/FinishButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreTextView" />
+
+    <Button
+        android:id="@+id/FinishButton"
+        android:layout_width="267dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="176dp"
+        android:onClick="Finish"
+        android:text="@string/finish"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NewQuizButton" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/textview"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/NewQuizButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreTextView"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

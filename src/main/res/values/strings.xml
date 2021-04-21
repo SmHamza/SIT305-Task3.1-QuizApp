@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Task3.1 Quiz App</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name">Name</string>
+    <string name="start">START</string>
+    <string name="welcome">Welcome</string>
+    <string name="submit">SUBMIT</string>
+    <string name="questions_for_sit305">Questions for SIT305</string>
+    <string name="android_question_title">Android Question title:</string>
+    <string name="answer3">Answer3</string>
+    <string name="answer2">Answer2</string>
+    <string name="answer1">Answer1</string>
+    <string name="_1_5">1/5</string>
+    <string name="your_score">Your Score</string>
+    <string name="take_new_quiz">Take New Quiz</string>
+    <string name="finish">FINISH</string>
+    <string name="textview">TextView</string>
+</resources>
